@@ -10,10 +10,10 @@ A vibe-coding dashboard that works on any device (phone, tablet, desktop) as a r
 - Graphify ([Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify), PyPI `graphifyy`) as the codebase knowledge graph from day one.
 
 ## Phase 0: Graphify foundation
-- [ ] Task 0.1: Install Graphify
+- [x] Task 0.1: Install Graphify
   - Run: `uv tool install graphifyy` (or `pipx install graphifyy`)
   - Acceptance: `graphify --version` prints a version.
-- [ ] Task 0.2: Register Graphify with Claude Code for this repo
+- [x] Task 0.2: Register Graphify with Claude Code for this repo
   - Run in the repo root: `graphify install --project --platform claude`
   - Writes project-scoped files (`.claude/skills/`, `CLAUDE.md` section, a `PreToolUse` hook). Review the diff before committing.
   - Acceptance: `/graphify` is available in a Claude Code session in this repo.
