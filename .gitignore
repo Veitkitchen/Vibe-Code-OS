@@ -1,0 +1,12 @@
+node_modules/
+.env*
+!.env.example
+
+# Graphify: commit graph.json and GRAPH_REPORT.md (force-add), keep the rest local
+graphify-out/*
+!graphify-out/graph.json
+!graphify-out/GRAPH_REPORT.md
+graphify-out/cache/
+.graphify_root
+.graphify_python
+.graphify_analysis.json
